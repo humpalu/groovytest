@@ -7,7 +7,7 @@ job("testjob01") {
 				github("tothger/groovytest", "ssh")
 				credentials("ssh_with_passphrase_provided")
 			}
-			branch("*/master")
+			branch("main")
 		}
 	}
 	disabled(false)
